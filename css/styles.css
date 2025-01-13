@@ -147,7 +147,6 @@ p {
   background: var(--clr-primary-8);
 }
 .hero {
-  background: green;
   background: url(../images/main.jpeg);
 }
 
