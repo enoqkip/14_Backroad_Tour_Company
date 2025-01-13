@@ -146,6 +146,9 @@ p {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
 }
+.hero {
+  background: url(/images/about.jpeg);
+}
 
 @media screen and (min-width: 768px) {
   .hero {
