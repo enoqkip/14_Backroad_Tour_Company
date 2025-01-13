@@ -146,15 +146,6 @@ p {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
 }
-.hero {
-  background: url(../images/main.jpeg);
-}
-
-@media screen and (min-width: 768px) {
-  .hero {
-    background: url("/images/about.jpeg") center center / cover no-repeat;
-  }
-}
 
 /*
 =============== 
@@ -171,6 +162,7 @@ Hero
 .hero {
   height: 100vh;
   background: var(--clr-primary-5);
+  /* background: url(../images/main.jpeg); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -200,6 +192,11 @@ Hero
   background: transparent;
   color: var(--clr-white);
   border-color: var(--clr-white);
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background: url(../images/main.jpeg);
+  }
 }
 
 /*
