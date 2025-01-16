@@ -247,6 +247,18 @@ About
   }
   @media screen and (min-width: 1170px) {
     .about-image::before {
+      content: "";
+      position: absolute;
+      border: 0.5rem solid --clr-grey-5;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      top: -1.5rem;
+      left: -1.5rem;
+      z-index: -1;
+    }
+    .about-image {
+      position: relative;
     }
   }
   .about-image,
